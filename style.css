@@ -136,14 +136,6 @@ body {
     background: #fce138;
   }
 
-  .primary-border {
-    border-color: #fce138;
-  }
-  
-  .secondary-border {
-    border-color: #39a6b2;
-  }
-
   .steps div {
     margin-bottom: 80px;
   }
@@ -217,11 +209,21 @@ body {
 
   .section-title {
     font-size: 55px;
-    display: inline-block;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
+    margin: auto;
     margin-bottom: 35px;
     color: #024e76;
+    width: 700px;
+  }
+
+  .primary-border {
+    border-color: #fce138;
+
+  }
+  
+  .secondary-border {
+    border-color: #39a6b2;
   }
 
   .contact {
@@ -238,7 +240,7 @@ body {
     height: 400px;
   }
 
-  .contact-info div {
+  div.contact-info {
     width: 410px;
     display: inline-block;
     vertical-align: top;
