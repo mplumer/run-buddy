@@ -9,6 +9,8 @@ body {
     font-family: Helvetica, Arial, sans-serif;    
   }
 
+  /*Header Section*/
+
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -29,20 +31,29 @@ body {
     color: #fce138;
   }
 
+/*Nav*/
+
   header nav {
     margin: 7px 0;
   }
-
-  header nav ul li {
-    display: inline;
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
   }
+
 
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
   }
-  
+
+  /*Footer*/
+
   footer {
     background: #fce138;
     width: 100%;
@@ -70,6 +81,8 @@ body {
     padding: 60px;
   }
 
+  /*Hero Section*/
+
   .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -77,6 +90,8 @@ body {
     background-position: center;
     position: relative;
   }
+
+  /*Get Started Form*/
 
   .hero-form {
     background-color: #fce138;
@@ -120,6 +135,8 @@ body {
     font-size: 16px;
   }
 
+  /*Introduction Paragraph*/
+
   .intro {
     text-align: center;
   }
@@ -131,6 +148,8 @@ body {
     font-size: 20px;
     margin: 0 auto;
   }
+
+  /*What We Do, What You Do Section*/
 
   .steps { 
     text-align: center;
@@ -160,6 +179,8 @@ body {
   .steps span {
     font-size: 38px;
   }
+
+  /*Trainers Section*/
 
   .trainers {
     text-align: center;
@@ -226,6 +247,8 @@ body {
   .secondary-border {
     border-color: #39a6b2;
   }
+
+  /*Contact Section*/
 
   .contact {
     text-align: center;
